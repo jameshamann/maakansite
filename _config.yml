@@ -4,10 +4,10 @@
 # Site settings
 title: Maakan
 description: |
-  Dine out for cheap 
-owner: Your Name # or company name
+  Simple, cheaper, food.
+owner: Maakan Enterprise # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+email: corproate@maakan.co.uk
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://maakan.com" # the base hostname & protocol for your site
 social:
