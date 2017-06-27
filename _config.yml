@@ -1,57 +1,37 @@
-# Welcome to Jekyll!
-#
-
 # Site settings
-title: Maakan
-description: |
-  Simple, cheaper, food.
-owner: Maakan Enterprise # or company name
-first_published: 2017 # if migrating another site, the year of your first publish
-email: corproate@maakan.co.uk
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://maakan.com" # the base hostname & protocol for your site
+title: Antonio Trento, theme Jeky New Age, the start Bootstrap themplate build for jekyll
+email:
+description: A jekyll template for landing pages, portfolio and blogging
+
+baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+url: "https://jekynewage.github.io" # the base hostname & protocol for your site
+
+#Google Ad Words Data from scripts code (using Google responsive options) and ad client
+data-ad-slot: 2973388149
+data-ad-client: ca-pub-9204963049240271
+google_ad_client: ca-pub-9204963049240271
+
+google_analytics: "UA-86331249-1"
+addthis_id: ra-5644da281510c62f
+disqus_account: jeky-new-age
+
+# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
-  #flickr:
-  instagram:
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  slack:
-  vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
+  - title: twitter
+    url: https://twitter.com/lantoniotrento
+  - title: facebook
+    url: https://facebook.com/lantoniotrento
+  - title: google-plus
+    url: https://plus.google.com/+AntoniotrentoIt
+  #- title: github
+  #  url: http://github.com/jekyll
 
 # Build settings
 markdown: kramdown
-#sass:
-#  style: compressed
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
+# Build settings
