@@ -1,28 +1,30 @@
 # Site settings
-title: Antonio Trento, theme Jeky New Age, the start Bootstrap themplate build for jekyll
-email:
-description: A jekyll template for landing pages, portfolio and blogging
+title: Maakan
+email: info@maakan.co.uk
+description: Eat out for less
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://jekynewage.github.io" # the base hostname & protocol for your site
+url: "https://maakan.co.uk" # the base hostname & protocol for your site
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
-data-ad-slot: 2973388149
-data-ad-client: ca-pub-9204963049240271
-google_ad_client: ca-pub-9204963049240271
+data-ad-slot: 2
+data-ad-client:
+google_ad_client:
 
-google_analytics: "UA-86331249-1"
-addthis_id: ra-5644da281510c62f
-disqus_account: jeky-new-age
+google_analytics:
+addthis_id:
+
 
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
   - title: twitter
-    url: https://twitter.com/lantoniotrento
+    url: https://twitter.com/maakanapp
   - title: facebook
-    url: https://facebook.com/lantoniotrento
+    url: https://facebook.com/#
   - title: google-plus
-    url: https://plus.google.com/+AntoniotrentoIt
+    url: https://plus.google.com/#
+  - title: instagram
+    url: https://instagram/#
   #- title: github
   #  url: http://github.com/jekyll
 
