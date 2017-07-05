@@ -18,13 +18,13 @@ addthis_id:
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
   - title: twitter
-    url: https://twitter.com/maakanapp
+    url: https://twitter.com/@maakanapp
   - title: facebook
-    url: https://facebook.com/#
+    url: https://facebook.com/maakan
   - title: google-plus
-    url: https://plus.google.com/#
+    url: https://plus.google.com/107338551753502513117
   - title: instagram
-    url: https://instagram/#
+    url: https://instagram/maakanapp
   #- title: github
   #  url: http://github.com/jekyll
 
