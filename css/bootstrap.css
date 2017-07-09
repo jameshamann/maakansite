@@ -10,6 +10,10 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+form {
+  align-items: center;
+}
+
 body {
   margin: 0;
 }
@@ -120,6 +124,7 @@ textarea {
 }
 button {
   overflow: visible;
+  background-color: transparent;
 }
 button,
 select {
@@ -131,13 +136,18 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
+  background-color: transparent;
 }
 button[disabled],
 html input[disabled] {
+  background-color: transparent;
+
   cursor: default;
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner {
+  background-color: transparent;
+
   padding: 0;
   border: 0;
 }
@@ -150,9 +160,13 @@ input[type="radio"] {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
+  background-color: transparent;
+
 }
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
+  background-color: transparent;
+
   height: auto;
 }
 input[type="search"] {

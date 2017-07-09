@@ -2,8 +2,48 @@
     <div class="cta-content">
         <div class="container">
             <h2>Want your restaurant on Maakan?</h2>
-            <a href="mailto:info@maakan.co.uk?Subject=Maakan%20Restaurant%20Enquiry" class="btn btn-outline btn-xl page-scroll">Enquire</a>
-        </div>
+            <!-- <a href="mailto:info@maakan.co.uk?Subject=Maakan%20Restaurant%20Enquiry" class="btn btn-outline btn-xl page-scroll">Enquire</a> -->
+
+        <div class="col-lg-4 col-lg-offset-2" style="align-items: center;">
+  				<form  action="//formspree.io/info@maakan.co.uk" method="POST" name="sentMessage" id="contactForm" novalidate>
+  					<div class="row control-group">
+  						<div class="form-group col-xs-4 floating-label-form-group controls">
+  							<input type="text" name="name" class="form-control" placeholder="Your Name" id="name" required data-validation-required-message="Please enter your name.">
+  							<p class="help-block text-danger"></p>
+  						</div>
+  					</div>
+  					<div class="row control-group">
+  						<div class="form-group col-xs-4 floating-label-form-group controls">
+  							<input type="email" name="restaurant" class="form-control" placeholder="Your Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+  							<p class="help-block text-danger"></p>
+  						</div>
+  					</div>
+              <div class="row control-group">
+    						<div class="form-group col-xs-4 floating-label-form-group controls">
+    							<input type="email" name="_replyto" class="form-control" placeholder="Your Restaurant Name" id="restaurant" required data-validation-required-message="Please enter the name of your restaurant.">
+    							<p class="help-block text-danger"></p>
+    						</div>
+              </div>
+              <div class="row control-group">
+              <div class="form-group col-xs-4 floating-label-form-group controls">
+                <input type="text" name="location" class="form-control" placeholder="Your Postcode" id="location" required data-validation-required-message="Please enter your postcode.">
+                <p class="help-block text-danger"></p>
+              </div>
+  					<div>
+  						<input type="hidden"  name="_subject" value="New submission!">
+  						<input type="text" name="_gotcha" style="display:none" />
+  					</div>
+  					</div>
+  					<br>
+  					<div id="success"></div>
+  					<div class="row">
+  						<div class="form-group col-xs-12">
+  							<button style="background-color: transparent;" type="submit" class="btn btn-outline btn-xl page-scroll">Enquire</button>
+  						</div>
+  					</div>
+  				</form>
+  			</div>
+      </div>
     </div>
     <div class="overlay"></div>
 </section>
