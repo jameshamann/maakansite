@@ -34,10 +34,10 @@
 // }
 
 // variables.less link and gradient background
-$head-primary: #7b4397 ;
-$head-secondary: #dc2430 ;
+$head-primary: #8c0106 ;
+$head-secondary: #FC242C  ;
 $theme-primary: #FC242C ;
-$theme-secondary: #830206 ;
+$theme-secondary: #8c0106 ;
 $theme-dark: white;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -48,4 +48,13 @@ $theme-dark: white;
 
 form {
   padding: 10px;
+}
+
+.brand {
+    position: absolute;
+    left: 7%;
+    // margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+    height: 150%;
+    padding: 10px;
 }
