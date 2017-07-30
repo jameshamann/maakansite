@@ -1,7 +1,7 @@
 # Site settings
 title: Maakan
 email: info@maakan.co.uk
-description: Eat out for less
+description:
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "https://maakan.co.uk" # the base hostname & protocol for your site
@@ -17,14 +17,14 @@ addthis_id:
 
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
-  - title: twitter
-    url: https://twitter.com/@maakanapp
   - title: facebook
     url: https://facebook.com/maakan
+  - title: twitter
+    url: https://twitter.com/@maakanapp
+  - title: instagram
+    url: https://www.instagram.com/maakan_app
   - title: google-plus
     url: https://plus.google.com/107338551753502513117
-  - title: instagram
-    url: https://instagram/maakanapp
   #- title: github
   #  url: http://github.com/jekyll
 
