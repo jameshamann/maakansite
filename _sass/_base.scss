@@ -437,11 +437,13 @@ footer {
   }
   ul {
     margin-bottom: 0;
+    color: black;
     li a {
       font-size: 12px;
-      color: rgba(255, 255, 255, 0.3);
+      color: black;
+
       &:hover, &:focus, &:active, &.active {
-        text-decoration: none;
+        color: $theme-primary;
       }
     }
   }
