@@ -21,8 +21,8 @@ social:
     url: https://facebook.com/maakanapp
   - title: twitter
     url: https://twitter.com/@maakanapp
-  - title: instagram
-    url: https://www.instagram.com/maakan_app
+  # - title: instagram
+  #   url: https://www.instagram.com/maakan_app
   #- title: github
   #  url: http://github.com/jekyll
 
