@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: default_no_social
 ---
 
 <!-- Post Header -->
 <header id="header" class="intro-header bg-primary text-center">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-1 col-md-10">
+            <div class="col-lg-8 col-lg-offset-2">
               <div class="post-heading">
                 <h1>{{ page.title }}</h1><br>
                 {% if page.subtitle %}
@@ -14,18 +14,36 @@ layout: default
                 {% endif %}
                 <div id="post" class="container">
                     <div class="row">
-                        <div class="col-lg-8 col-md-10">
+                        <div class="col-md-8">
                 <b><h4>Last updated: 7th September 2017</h5></b>
-                  {% include privacy.html %}
-              </div>
-              </div>
-              </div>
+                  {% include privacy.md %}
               </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </header>
+<footer>
+    <div class="container">
+        <p> Maakan Enterprise Ltd. &copy; Registered in England and Wales No. 10664454 </p>
+        <p><i class="fa fa-phone faa-shake animated " aria-hidden="true"></i>  0333 733 8068 | <i class="fa fa-envelope faa-shake animated" aria-hidden="true"></i>  info@maakan.co.uk</p>
 
-<body>
-
-</body>
+        <br>
+        <ul class="list-inline">
+            <li>
+                <a href="/privacy">Privacy Policy</a>
+            </li>
+            <!-- <li>
+                <a href="#">Terms and Conditions</a> -->
+            <!-- </li> -->
+            <li>
+                <a href="/careers">Careers</a>
+            </li>
+            <li>
+                <a href="/blog">Blog</a>
+            </li>
+        </ul>
+    </div>
+</footer>
